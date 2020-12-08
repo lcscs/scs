@@ -1,0 +1,23 @@
+
+Subject: [PATCH] update# public_key_legacy_prefix to SCS
+
+---
+ include/fc/crypto/public_key.hpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/include/fc/crypto/public_key.hpp b/include/fc/crypto/public_key.hpp
+index 70a8e66..88df594 100644
+--- a/include/fc/crypto/public_key.hpp
++++ b/include/fc/crypto/public_key.hpp
+@@ -9,7 +9,7 @@
+ 
+ namespace fc { namespace crypto {
+    namespace config {
+-      constexpr const char* public_key_legacy_prefix = "scs";
++      constexpr const char* public_key_legacy_prefix = "SCS";
+       constexpr const char* public_key_base_prefix = "PUB";
+       constexpr const char* public_key_prefix[] = {
+          "K1",
+-- 
+2.21.0.windows.1
+

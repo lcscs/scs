@@ -1,0 +1,26 @@
+[submodule "libraries/chainbase"]
+	path = libraries/chainbase
+	url = https://github.com/lcscs/chainbase
+        ignore = dirty
+[submodule "libraries/appbase"]
+	path = libraries/appbase
+	url = https://github.com/lcscs/appbase
+        ignore = dirty
+[submodule "libraries/softfloat"]
+	path = libraries/softfloat
+	url = https://github.com/lcscs/berkeley-softfloat-3
+[submodule "libraries/fc"]
+	path = libraries/fc
+	url = https://github.com/lcscs/fc
+[submodule "libraries/wabt"]
+	path = libraries/wabt
+	url = https://github.com/lcscs/wabt
+[submodule "libraries/yubihsm"]
+	path = libraries/yubihsm
+	url = https://github.com/Yubico/yubihsm-shell
+[submodule "libraries/scs-vm"]
+	path = libraries/scs-vm
+	url = https://github.com/lcscs/scs-vm
+[submodule "lcscs-wasm-spec-tests"]
+	path = lcscs-wasm-spec-tests
+	url = https://github.com/lcscs/lcscs-wasm-spec-tests

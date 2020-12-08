@@ -1,0 +1,7 @@
+#include <lcscs/chain/genesis_state.hpp>
+
+namespace lcscs { namespace chain {
+
+const string genesis_state::lcscs_root_key = "${lcscs_ROOT_KEY}";
+
+} } // namespace lcscs::chain

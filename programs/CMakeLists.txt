@@ -1,0 +1,5 @@
+add_subdirectory( nodscs )
+add_subdirectory( clscs )
+add_subdirectory( kscsd )
+add_subdirectory( lcscs-launcher )
+add_subdirectory( lcscs-blocklog )
